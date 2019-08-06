@@ -1,6 +1,10 @@
+# Classic .Net to .Net Core mapping
+
 ## Classic .Net Platform
+
 The classic .Net platform is composed by:
-* CLR = Common Language Runtime 
+
+* CLR = Common Language Runtime  
 * * JIT
 * BCL = Base Class Library
 
@@ -10,8 +14,10 @@ The process is:
 3 - run: os loader instantiates the CLR and host the program.  
 
 ## Core .Net Platform
+
 The Core .Net platform is composed by:
-* Core CLR = .Net core platform runtime 
+
+* Core CLR = .Net core platform runtime
 * * the Core CLR is empowered by a new JIT compiler called RuyJIT
 * Core FX = Base Class Library for .net core
 * CLI (Command line interface) = cross-platform toolchain for developing .Net applications
